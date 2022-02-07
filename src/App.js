@@ -5,9 +5,8 @@ import About from "./Pages/About/About.js";
 import Contact from "./Pages/Contact/Contact.js";
 import Home from "./Pages/Home/Home.js";
 import Services from "./Pages/ServicesPage/Services.js";
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar/Navbar";
-
 const App = () => {
   return (
     <div className="App">

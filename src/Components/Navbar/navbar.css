@@ -1,0 +1,135 @@
+.rmnw__navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.64);
+  color: white;
+  margin: none;
+  padding: none;
+  z-index: 10;
+  max-height: 80px;
+}
+
+.rmnw__navbar-container div {
+  padding: 0 1.72vw;
+  display: flex;
+}
+
+.rmnw__navbar-container a {
+  text-decoration: none;
+  font-family: "Nunito", sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 12.2vw;
+  color: #fff;
+}
+.rmnw__navbar-home a {
+  height: 80px;
+}
+.rmnw__navbar-services a {
+  height: 80px;
+}
+.rmnw__navbar-about a {
+  height: 80px;
+}
+.rmnw__navbar-contact a {
+  height: 80px;
+}
+
+.rmnw__navbar-container a:hover {
+  background-color: #379efe82;
+  transform: translate(0, -3px);
+}
+
+.rmnw__navbar-container a:active {
+  background-color: #0885fa82;
+  transform: translate(0, -1px);
+}
+
+.rmnw__navbar-image {
+  display: flex;
+  width: 120px;
+  height: 80px;
+}
+
+.rmnw__navbar-menu svg {
+  display: none;
+}
+
+.rmnw__navbar-dropdown {
+  width: 120px;
+  min-width: 120px;
+  min-height: 270px;
+  background-color: black;
+  border-radius: 5px;
+  border: 1px solid white;
+  transform: translate(165px, 170px);
+}
+
+@media screen and (min-width: 801px) {
+  .rmnw__navbar-dropdown {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .rmnw__navbar-container {
+    max-height: 80px;
+  }
+
+  .dropdown-item {
+    height: 35px;
+    width: 100%;
+  }
+
+  .rmnw__navbar-dropdown {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: white;
+  }
+
+  .rmnw__navbar-home a {
+    display: none;
+  }
+  .rmnw__navbar-services a {
+    display: none;
+  }
+  .rmnw__navbar-about a {
+    display: none;
+  }
+  .rmnw__navbar-contact a {
+    display: none;
+  }
+  .dropdown-item a {
+    margin-left: 25px;
+    display: flex;
+    background-color: white;
+    color: white;
+  }
+  .rmnw__navbar-menu svg {
+    display: inline;
+    justify-self: flex-start;
+  }
+  .rmnw__navbar-container {
+    width: 100%;
+    justify-content: flex-end;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .rmnw__navbar-image {
+    width: 90px;
+    height: 60px;
+  }
+  .rmnw__navbar-container {
+    max-height: 60px;
+  }
+  .rmnw__navbar-dropdown {
+    transform: translate(125px, 170px);
+  }
+}
