@@ -87,7 +87,7 @@ const Home = () => {
               <h2>Commercial Fabrication</h2>
               <p>
                 Our dedicated team brings years of experience custom fitting
-                safety rails for your boat -- big or small. If it doesn't fit{" "}
+                safety rails for your boat -- big or small. If it doesn't fit
                 <i> perfectly</i> the first time, we'll come out and set it
                 right!
               </p>

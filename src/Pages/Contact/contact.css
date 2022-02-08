@@ -185,7 +185,13 @@
 
 .rmnw__contact-phone a {
   color: black;
+  text-decoration: none;
 }
+
+.rmnw__contact-phone a:hover {
+  text-decoration: underline;
+}
+
 /*  ------------------   Begin Media Queries   ------------------  */
 
 @media screen and (max-width: 1600px) {

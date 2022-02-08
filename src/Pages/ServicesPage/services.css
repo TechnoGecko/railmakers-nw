@@ -42,6 +42,7 @@
   width: 60vw;
   max-width: 800px;
   line-height: 2rem;
+  font-size: 22px;
 }
 
 .wrapper1 {
@@ -94,6 +95,7 @@
   }
   .service_content-wrapper p {
     margin-bottom: 45px;
+    font-size: 18px;
   }
   .rmnw__service {
     flex-direction: column;

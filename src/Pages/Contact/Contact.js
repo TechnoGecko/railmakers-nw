@@ -144,10 +144,7 @@ const Contact = () => {
         </div>
         <div className="rmnw__contact-phone c1">
           <i className="fas fa-phone"></i>
-          <a
-            className="contact_link rmnw__contact_phone-button"
-            href="tel:4252599236"
-          >
+          <a className=" rmnw__contact_phone-button" href="tel:4252599236">
             <p>(425) 259-9236</p>
           </a>
         </div>

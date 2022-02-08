@@ -9,21 +9,16 @@ const Services = () => {
         <div className="service_content-wrapper wrapper1">
           <h1>Commercial Fabrication</h1>
           <p>
-            Cras tempus ex orci, ut hendrerit arcu sollicitudin sed. Integer
-            nunc magna, hendrerit quis lacus ac, imperdiet pretium nulla. In
-            efficitur malesuada sodales. Nulla semper massa a leo vehicula, eu
-            laoreet lorem hendrerit. Curabitur molestie, lorem eget porttitor
-            pulvinar, urna tellus elementum augue, id pharetra urna risus
-            efficitur odio. Nulla sed posuere elit.
+            Our dedicated team brings years of experience custom fitting safety
+            rails for your boat -- big or small. If it doesn't fit
+            <i> perfectly</i> the first time, we'll come out and set it right!
           </p>
           <h1>Custom/Personal Fabrication</h1>
           <p>
-            Cras tempus ex orci, ut hendrerit arcu sollicitudin sed. Integer
-            nunc magna, hendrerit quis lacus ac, imperdiet pretium nulla. In
-            efficitur malesuada sodales. Nulla semper massa a leo vehicula, eu
-            laoreet lorem hendrerit. Curabitur molestie, lorem eget porttitor
-            pulvinar, urna tellus elementum augue, id pharetra urna risus
-            efficitur odio. Nulla sed posuere elit.
+            Have a more specific need? Worried that odd angle might not be
+            doable? If you can picture it, we can make it happen. Show us your
+            vision, and let us take care of the measuring and cutting (and
+            welding)!
           </p>
         </div>
         <div className="service_image-wrapper imgwrap1">
@@ -38,12 +33,11 @@ const Services = () => {
         <div className="service_content-wrapper wrapper2">
           <h1>Electro Polish</h1>
           <p>
-            Cras tempus ex orci, ut hendrerit arcu sollicitudin sed. Integer
-            nunc magna, hendrerit quis lacus ac, imperdiet pretium nulla. In
-            efficitur malesuada sodales. Nulla semper massa a leo vehicula, eu
-            laoreet lorem hendrerit. Curabitur molestie, lorem eget porttitor
-            pulvinar, urna tellus elementum augue, id pharetra urna risus
-            efficitur odio. Nulla sed posuere elit.
+            Maybe you're already all set -- let us help keep your stainless
+            steel looking like the day you got it. With a _____ ____ electro
+            polish vat and an expert technician, you can be sure that your parts
+            are in good hands. You might need sunglasses the next time you look
+            at them.
           </p>
         </div>
       </div>
@@ -52,12 +46,11 @@ const Services = () => {
         <div className="service_content-wrapper wrapper3">
           <h1>Repair</h1>
           <p>
-            Cras tempus ex orci, ut hendrerit arcu sollicitudin sed. Integer
-            nunc magna, hendrerit quis lacus ac, imperdiet pretium nulla. In
-            efficitur malesuada sodales. Nulla semper massa a leo vehicula, eu
-            laoreet lorem hendrerit. Curabitur molestie, lorem eget porttitor
-            pulvinar, urna tellus elementum augue, id pharetra urna risus
-            efficitur odio. Nulla sed posuere elit.
+            Life happens. In the case that the damage is more than cosmetic,
+            we've got you covered there too. Whether it's reshaping, patching
+            up, or just attaching something that's no longer attached, we take
+            the utmost care with our repairs. Don't be surprised if it shines a
+            little more when you get it back too.
           </p>
         </div>
         <div className="service_image-wrapper imgwrap3">

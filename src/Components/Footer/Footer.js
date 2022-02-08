@@ -23,9 +23,9 @@ const Footer = () => {
       <div className="rmnw__footer-nav">
         <div className="rmnw__footer-nav_accent-line"></div>
         <div className="rmnw__footer-nav-list">
-          <a href="#home" className="footer_nav-link link1">
+          <Link to="/" className="footer_nav-link link1">
             <p>Home</p>
-          </a>
+          </Link>
           <Link to="/services" className="footer_nav-link link2">
             <p>Services</p>
           </Link>
@@ -50,6 +50,9 @@ const Footer = () => {
             <a className="contact_link" href="mailto: markr@railmakersnw.com">
               <p>markr@railmakersnw.com</p>
             </a>
+          </div>
+          <div className="footer_contact-container c3">
+            <p> Privacy Policy</p>
           </div>
         </div>
       </div>

@@ -10,7 +10,7 @@ const About = () => {
         Please check back soon to learn more about us! <br />
         (Or stop in and say hello!)
       </h2>
-      <button>
+      <button className="redirect-button">
         <Link to="/">Home</Link>
       </button>
     </div>
