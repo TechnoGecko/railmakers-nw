@@ -86,10 +86,11 @@ const Home = () => {
             <div className="home_service s1">
               <h2>Commercial Fabrication</h2>
               <p>
-                Our dedicated team brings years of experience custom fitting
-                safety rails for your boat -- big or small. If it doesn't fit
-                <i> perfectly</i> the first time, we'll come out and set it
-                right!
+                Here at the Railmakers Northwest we are dedicated to delivering
+                you only the highest quality stainless steel safety railings.
+                Whether for your boat, vehicle, home, or commercial building, we
+                guarantee you will be satisfied with our craftsmanship and your
+                product.
               </p>
             </div>
             <div className="home_service s2">
