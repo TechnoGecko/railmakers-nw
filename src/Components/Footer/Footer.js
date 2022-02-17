@@ -12,7 +12,8 @@ const Footer = () => {
         </div>
         <div className="rmnw__footer-cta">
           <h1>
-            Ready to get your design started?
+            Ready to get started?
+            <br />
             <br /> So are we!
           </h1>
           <button type="button" className="rmnw__footer-cta_button">

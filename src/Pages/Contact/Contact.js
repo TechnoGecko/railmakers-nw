@@ -53,7 +53,7 @@ const Contact = () => {
 
   setTimeout(() => {
     showResult(false);
-  });
+  }, 5000);
 
   return (
     <div className="rmnw__contact-wrapper">
@@ -63,11 +63,9 @@ const Contact = () => {
           <h2>What can we make for you?</h2>
           <div className="rmnw__contact_paragraph-container">
             <p>
-              Fusce ultrices, lorem sit amet maximus tincidunt, nulla urna
-              faucibus lectus, sed interdum eros dolor id nunc. Donec gravida
-              interdum pharetra. Nulla tempus ex eros, et euismod diam ultrices
-              quis. Mauris finibus eget turpis nec pretium. Ut quis quam
-              fringilla, vestibulum mi sit amet, accumsan mauris.
+              Our specialist is waiting to answer your questions, and to get the
+              ball rolling. Please include any info or questions you might have
+              about your order and we will get back to you ASAP!
             </p>
           </div>
         </div>
@@ -97,7 +95,7 @@ const Contact = () => {
                   required: "This field is required",
                   pattern: {
                     value: /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/i,
-                    message: "invalid email address",
+                    message: "Invalid email address",
                   },
                   minLength: {
                     value: 8,
@@ -109,6 +107,22 @@ const Contact = () => {
               />
             </label>
             <p>{errors.email?.message}</p>
+            <label for="phone">
+              Enter your phone number (optional):
+              <input
+                type="text"
+                {...register("phone", {
+                  required: false,
+                  minLength: {
+                    value: 10,
+                    message: "please enter a valid phone number",
+                  },
+                })}
+                placeholder="Phone number"
+                id="phone"
+              />
+              <p>{errors.phone?.message}</p>
+            </label>
             <label for="message">
               Tell us how we can help you : <br /> (type of service(s) required,
               product dimensions, etc.)
@@ -129,6 +143,18 @@ const Contact = () => {
                 id="message"
               ></textarea>
             </label>
+            <label for="attachment">
+              Attach a file (optional):
+              <input
+                type="file"
+                {...register("attachment", {
+                  required: false,
+                })}
+                placeholder="Attach image here"
+                id="attachment"
+              />
+            </label>
+
             <button type="submit" className="rmnw__form-submit-button">
               Submit
             </button>

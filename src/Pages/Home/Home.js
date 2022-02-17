@@ -98,28 +98,28 @@ const Home = () => {
               <p>
                 Have a more specific need? Worried that odd angle might not be
                 doable? If you can picture it, we can make it happen. Show us
-                your vision, and let us take care of the measuring and cutting
-                (and welding)!
+                your vision, and let us take care of the measuring and cutting.
               </p>
             </div>
             <div className="home_service s3">
               <h2>Electro Polish</h2>
               <p>
                 Maybe you're already all set -- let us help keep your stainless
-                steel looking like the day you got it. With a _____ ____ electro
-                polish vat and an expert technician, you can be sure that your
-                parts are in good hands. You might need sunglasses the next time
-                you look at them.
+                steel looking like the day you got it. With a 5 x 10 x 5 ft.
+                electro polish vat and an expert technician, you can be sure
+                that your parts are in good hands. You might need sunglasses the
+                next time you look at them.
               </p>
             </div>
             <div className="home_service s4">
               <h2>Repair</h2>
               <p>
                 Life happens. In the case that the damage is more than cosmetic,
-                we've got you covered there too. Whether it's reshaping,
-                patching up, or just attaching something that's no longer
-                attached, we take the utmost care with our repairs. Don't be
-                surprised if it shines a little more when you get it back too.
+                we've got you covered there too. Whether you need a rail
+                repaired, a section replaced, or it's time to duplicate the
+                entire rail: we'll take the utmost care. Just don't be surprised
+                if it shines more than the rest of the boat when you get it
+                back!
               </p>
             </div>
           </div>
